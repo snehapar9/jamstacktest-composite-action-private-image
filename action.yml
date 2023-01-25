@@ -42,7 +42,7 @@ runs:
           restore-keys: |
             ${{ runner.os }}-npm3-
       - name: Oryx build step
-        uses: snehapar9/jamstack-docker-action@snehapar/oryx-build
+        uses: snehapar9/jamstack-docker-action-private-image@snehapar/oryx-build
         id: oryx-build
         with:
           app-location: ${{ inputs.app-location }}

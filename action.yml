@@ -46,5 +46,3 @@ runs:
         id: oryx-build
         with:
           app-location: ${{ inputs.app-location }}
-          username: ${{ inputs.username }}
-          password: ${{ inputs.password }}
